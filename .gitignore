@@ -1,7 +1,33 @@
-# For projects using nanoc (http://nanoc.stoneship.org/)
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
 
-# Default location for output, needs to match output_dir's value found in config.yaml
-output/
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
 
-# Temporary file directory
-tmp/
+# OS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
